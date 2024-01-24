@@ -8,7 +8,12 @@
 </head>
 
 <body>
-
+    <!-- form per richiedere la lunghezza della password -->
+    <form>
+        <label for="lughezzaPassword">scrivere il numero dei caratteri che si vuole per la password</label>
+        <input type="text" name="lughezzaPassword">
+        <input type="submit" value="ricevi">
+    </form>
 </body>
 
 </html>
