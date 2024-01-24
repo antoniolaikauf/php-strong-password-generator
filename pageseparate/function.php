@@ -3,7 +3,7 @@
 // $array array con dentro tutti i caratteri 
 //$arrayrisp array di risposta per utente 
 // $lenghtpassword lunghezza password decisa da utente
-function generatePassword($array, $arrayrisp, $lenghtpassword)
+ function generatePassword($array, $arrayrisp, $lenghtpassword)
 {
     if ($lenghtpassword > 1) {
         $a = 0;

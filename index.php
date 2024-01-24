@@ -9,9 +9,9 @@
     <title>passworld generator</title>
 
     <?php
-    
-    require_once __DIR__ . "/function/function.php";
-    
+
+    require_once __DIR__ . "/pageseparate/function.php";
+
     ?>
 </head>
 
@@ -38,7 +38,7 @@
             <div class="col-12">
                 <form>
                     <label for="lughezzaPassword">scrivere il numero dei caratteri che si vuole per la password</label>
-                    <input type="text" name="lughezzaPassword" placeholder="scrivi lunghezza password">
+                    <input type="text" name="lughezzaPassword" placeholder="scrivi lunghezza password" id="lughezzaPassword">
                     <input type="submit" value="ricevi">
                 </form>
             </div>
