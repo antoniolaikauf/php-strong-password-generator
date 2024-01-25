@@ -19,6 +19,7 @@
     <?php
 
     $lunghezzaPassword = $_GET['lughezzaPassword'];
+
     // array con dove ci sarà la risposta 
     $arrayrisposta = [];
     // vari array con i caratteri
@@ -29,6 +30,8 @@
 
     // somma di tutti gli array
     $arrytot = array_merge($caratteriMaiuscoli, $caratteriMinuscoli, $caratteriSpeciali, $numeri);
+
+
     // funzione per generare la password
     ?>
 
